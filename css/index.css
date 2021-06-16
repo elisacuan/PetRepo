@@ -1,0 +1,92 @@
+/*body {
+  height: 5000px;
+}
+.left {
+  width: 50%;
+  background-color: purple;
+}
+.right {
+  width: 50%;
+  background-color: green;
+}
+.relative {
+  background-color: lightblue;
+  height: 250px;
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  position: relative;
+}
+.absolute {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  color: white;
+  position:absolute;
+  top:0;
+  left: 0;
+
+}
+.fixed {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+  background-color: #F1FAEE;
+}
+
+.menuitem{
+  background-color: #332FFF;
+  position: inline;
+  padding: 20px;
+  color: #F1FAEE;
+  display: inline-block;
+}
+
+.leftnav{
+  min-height: 1200px;
+  width: 29%;
+  background-color: #7ACAFF;
+  display: inline-block;
+  position: relative;
+
+}
+
+.maincontent {
+  background-color: black;
+  min-height: 1200px;
+  width: 70%;
+  float: right;
+}
+
+.imagecontainer{
+
+  padding: 20px;
+  position: absolute;
+
+}
+
+.dogimage{
+  width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+
+
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
